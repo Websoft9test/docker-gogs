@@ -1,7 +1,7 @@
 {
   "name": "gogs",
   "trademark": "Gogs",
-  "installpath": "/data/wwwroot/gogs",
+  "installpath": "/data/apps/gogs",
   "compose_file": "docker-compose.yml",
   "fork_url": "https://github.com/gogs/gogs",
   "env_file": ".env",
@@ -12,24 +12,5 @@
     "disk": "20",
     "swap": "2",
     "url": "https://github.com/gogs/gogs"
-  },
-
-  "services":[
-    {
-      "name": "gogs",
-      "port": "9001",
-      "description_cn": "浏览器访问 Gogs",
-      "description_en": "HTTP to access Gogs",
-      "required": "Y"
-    },
-
-    {
-      "name": "gogs",
-      "port": "9002",
-      "description_cn": "SSH 访问 Gogs",
-      "description_en": "SSH to access Gogs",
-      "required": "Y"
-    }
-  ]
-
+  }
 }
