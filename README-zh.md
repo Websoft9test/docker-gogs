@@ -88,12 +88,6 @@ sudo docker-compose up -d
 
 下面是使用过程中可能需要的信息
 
-#### 服务和端口
-
-| 名称 | 端口号 | 用途 |  必要性 |
-| --- | --- | --- | --- |
-| gogs | 9001 | 浏览器访问 Gogs | Y |
-| gogs | 9002 | SSH 访问 Gogs | Y |
 ## 文档
 
 [Gogs 管理员手册](https://support.websoft9.com/docs/gogs)

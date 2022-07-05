@@ -82,12 +82,6 @@ You can point your browser to: *`http://Instance's Internet IP:port`*
 
 The following is the information that may be needed during use
 
-#### Services and Ports
-
-| Service | Port | Use |  Necessity |
-| --- | --- | --- | --- |
-| gogs | 9001 | HTTP to access Gogs | Y |
-| gogs | 9002 | SSH to access Gogs | Y |
 ## Documentation
 
 [Gogs Administrator Guide](https://support.websoft9.com/docs/gogs)
